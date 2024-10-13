@@ -1,0 +1,31 @@
+.contenedor {
+  background-color: bisque;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-template-areas:
+    "header    header"
+    "menu      menu"
+    "contenido abs"
+    "footer    footer";
+}
+.contenedor .header {
+  background-color: aquamarine;
+  grid-area: header;
+}
+.contenedor .menu {
+  background-color: aquamarine;
+  grid-area: menu;
+}
+.contenedor .contenido {
+  background-color: aquamarine;
+  grid-area: contenido;
+}
+.contenedor .abs {
+  background-color: aquamarine;
+  grid-area: abs;
+}
+.contenedor .footer {
+  background-color: aquamarine;
+  grid-area: footer;
+}
